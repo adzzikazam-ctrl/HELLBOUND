@@ -70,7 +70,7 @@ input,select{
 <!-- HERO -->
 <div class="hero" id="hero">
 
-    <img src="logo hell bound.png" class="logo">
+    <img src="hellhound/logo hell bound.png" class="logo">
 
     <h1 class="fw-bold display-3">HELLBOUND CO.</h1>
 
@@ -100,7 +100,7 @@ input,select{
 
         <div class="col-md-3">
             <div class="card h-100 text-white" onclick="bukaProduk('Bracelet')">
-                <img src="gelang.png" class="card-img-top">
+                <img src="hellhound/gelang.png" class="card-img-top">
                 <div class="card-body text-center">
                     <h4>Bracelet</h4>
                 </div>
@@ -109,7 +109,7 @@ input,select{
 
         <div class="col-md-3">
             <div class="card h-100 text-white" onclick="bukaProduk('Metal Ring')">
-                <img src="cincin.png" class="card-img-top">
+                <img src="hellhound/cincin.png" class="card-img-top">
                 <div class="card-body text-center">
                     <h4>Metal Ring</h4>
                 </div>
@@ -118,7 +118,7 @@ input,select{
 
         <div class="col-md-3">
             <div class="card h-100 text-white" onclick="bukaProduk('Chain Necklace')">
-                <img src="kalung.png" class="card-img-top">
+                <img src="hellhound/kalung.png" class="card-img-top">
                 <div class="card-body text-center">
                     <h4>Chain Necklace</h4>
                 </div>
@@ -261,33 +261,33 @@ let data = '';
 if(kategori == 'Metal Ring'){
 
     data =
-    card('Skull Ring',80000,'skull ring.png','Cincin Silver Metal Tengkorak') +
-    card('Iron Ring',70000,'iron ring.png','Cincin Silver Metal Polos') +
-    card('Dark Ring',85000,'dark ring.png','Cincin Hitam Metal Polos');
+    card('Skull Ring',80000,'hellhound/skull ring.png','Cincin Silver Metal Tengkorak') +
+    card('Iron Ring',70000,'hellhound/iron ring.png','Cincin Silver Metal Polos') +
+    card('Dark Ring',85000,'hellhound/dark ring.png','Cincin Hitam Metal Polos');
 }
 
 if(kategori == 'Bracelet'){
 
     data =
-    card('Skull Bracelet',120000,'skullbracelet.png','Gelang Rantai Metal Silver Dengan Tengkorak') +
-    card('Chain Bracelet',90000,'chain bracelet.png','Gelang Rantai Metal') +
-    card('Leather Bracelet',110000,'leather bracelet.png','Gelang Kulit Dan Metal Hitam');
+    card('Skull Bracelet',120000,'hellhound/skullbracelet.png','Gelang Rantai Metal Silver Dengan Tengkorak') +
+    card('Chain Bracelet',90000,'hellhound/chain bracelet.png','Gelang Rantai Metal') +
+    card('Leather Bracelet',110000,'hellhound/leather bracelet.png','Gelang Kulit Dan Metal Hitam');
 }
 
 if(kategori == 'Chain Necklace'){
 
     data =
-    card('Heavy Chain',150000,'heavy chan.png','Rantai Silver Metal Tebal') +
-    card('Silver Chain',130000,'silver chan.png','Rantai silver Metal') +
-    card('Dark Chain',140000,'dark chan.png','Rantai Hitam Metal');
+    card('Heavy Chain',150000,'hellhound/heavy chan.png','Rantai Silver Metal Tebal') +
+    card('Silver Chain',130000,'hellhound/silver chan.png','Rantai silver Metal') +
+    card('Dark Chain',140000,'hellhound/dark chan.png','Rantai Hitam Metal');
 }
 
 if(kategori == 'Wallet Chain'){
 
     data =
-    card('Wallet Chain Skull',100000,'wallet chain skull.png','Rantai Silver Metal Dengan Tengkorak') +
-    card('Wallet Chain Heavy',120000,'wallet chain heavy.png','Rantai Silver Metal') +
-    card('Wallet Chain Dark',110000,'wallet chain dark.png','Rantai Hitam Metal Dengan Tengkorak');
+    card('Wallet Chain Skull',100000,'hellhound/wallet chain skull.png','Rantai Silver Metal Dengan Tengkorak') +
+    card('Wallet Chain Heavy',120000,'hellhound/wallet chain heavy.png','Rantai Silver Metal') +
+    card('Wallet Chain Dark',110000,'hellhound/wallet chain dark.png','Rantai Hitam Metal Dengan Tengkorak');
 }
 
 listProduk.innerHTML = data;
